@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+li:first-child button {
+    border-radius: 6px 0 0 6px;
+}
+
+li:last-child button {
+    border-radius: 0 6px 6px 0;
+}
+

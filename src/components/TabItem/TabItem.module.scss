@@ -1,0 +1,30 @@
+.tabItem {
+    min-width: 168px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #dfe5ec;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tabItem__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.tabItem:hover,
+.tabItem__active {
+    background-color: #2196f3;
+    border: 1px solid #2196f3;
+}
+
+.tabItem:hover .tabItem__text,
+.tabItem__active .tabItem__text {
+    color: #fff;
+}

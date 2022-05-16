@@ -1,0 +1,30 @@
+.load {
+    position: absolute;
+    width: 504px;
+    top: 215px;
+}
+.load .load__body {
+    width: 0%;
+    height: 5px;
+    background: linear-gradient(
+        to right,
+        rgb(51, 253, 93),
+        rgb(71, 185, 236),
+        rgb(42, 147, 245),
+        rgb(41, 168, 222),
+        rgb(120, 56, 179),
+        rgb(234, 34, 70)
+    );
+    background-size: 504px 5px;
+    border-radius: 12px;
+    animation: loading 6s ease-in-out forwards;
+}
+
+.load .load__item {
+    width: 100%;
+}
+@keyframes loading {
+    to {
+        width: 100%;
+    }
+}

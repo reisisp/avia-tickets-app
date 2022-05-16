@@ -1,0 +1,25 @@
+.route {
+    display: inline-flex;
+    flex-basis: 140px;
+    flex-direction: column;
+}
+
+.route__head {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #a0b0b9;
+}
+
+.route__body {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
