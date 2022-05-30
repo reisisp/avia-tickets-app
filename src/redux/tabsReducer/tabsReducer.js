@@ -1,4 +1,4 @@
-import { CHANGE_TAB } from '../types';
+import { CHANGE_TAB } from '../reduxTypes';
 
 const initialState = {
   currentTab: 0,

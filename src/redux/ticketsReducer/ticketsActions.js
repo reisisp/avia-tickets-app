@@ -6,7 +6,7 @@ import {
   ON_TICKETS_ERROR,
   FIRST_PACKET_LOAD,
   ADD_FIVE_TO_SHOW,
-} from '../types';
+} from '../reduxTypes';
 import TicketsService from '../../services/service-tickets';
 
 const service = new TicketsService();

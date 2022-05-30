@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Tickets from '../../pages/Tickets/Tickets';
+import Tickets from '../Tickets/Tickets';
 import Footer from '../Footer';
 import Logo from '../Logo';
 

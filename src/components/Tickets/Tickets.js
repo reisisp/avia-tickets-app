@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import * as actions from '../../redux/ticketsReducer/ticketsActions';
-import FilterList from '../../components/FilterList';
-import TabList from '../../components/TabList/TabList';
-import TicketList from '../../components/TicketList/TicketList';
-import LoadLine from '../../components/ui/LoadLine';
+import FilterList from '../FilterList';
+import TabList from '../TabList/TabList';
+import TicketList from '../TicketList/TicketList';
+import LoadLine from '../UI/LoadLine';
 
 import classes from './Tickets.module.scss';
 
@@ -15,7 +15,7 @@ const Tickets = ({ loading }) => {
       <FilterList />
       <div className={classes.tickets__content}>
         <TabList />
-        {loading ? <LoadLine /> : null}
+        {loading && <LoadLine />}
         <TicketList />
       </div>
     </div>

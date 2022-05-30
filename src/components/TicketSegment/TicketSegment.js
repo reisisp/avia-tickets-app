@@ -1,6 +1,6 @@
 import React from 'react';
 
-import RoutePart from '../ui/RoutePart';
+import RoutePart from '../UI/RoutePart';
 
 import classes from './TicketSegment.module.scss';
 

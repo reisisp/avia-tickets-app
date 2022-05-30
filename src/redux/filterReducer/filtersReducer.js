@@ -1,4 +1,4 @@
-import { FILTER, FILTER_ALL, FILTER_DISABLE_ALL } from '../types';
+import { FILTER, FILTER_ALL, FILTER_DISABLE_ALL } from '../reduxTypes';
 
 const initialState = {
   all: true,

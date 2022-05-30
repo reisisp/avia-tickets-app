@@ -1,4 +1,4 @@
-import { FILTER, FILTER_ALL, FILTER_DISABLE_ALL } from '../types';
+import { FILTER, FILTER_ALL, FILTER_DISABLE_ALL } from '../reduxTypes';
 
 export function onFilter(filter, data) {
   if (filter === 'all' && !data[filter]) return { type: FILTER_ALL };
